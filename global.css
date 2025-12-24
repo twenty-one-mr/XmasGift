@@ -1,0 +1,31 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0f172a] text-[#e2e8f0] antialiased;
+  }
+}
+
+@layer components {
+  .serif {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .signature-font {
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .gold-shimmer {
+    background: linear-gradient(90deg, #b08d57 0%, #e5c185 50%, #b08d57 100%);
+    background-size: 200% 100%;
+    animation: gold-shimmer 3s infinite linear;
+  }
+}
+
+@keyframes gold-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
