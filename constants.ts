@@ -18,7 +18,7 @@ export const EXPERIENCE_DATA: ExperienceDetails = {
     { name: "Kathy Ruggiero" },
     { name: "Maureen Somervell", nickname: "Moe" }
   ],
-  validity: "February 1 – February 31, 2026",
+  validity: "February 1 – February 28, 2026",
   authorizedBy: "Private Concierge Services",
   issuedDate: "December 2025"
 };

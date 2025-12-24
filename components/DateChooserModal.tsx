@@ -12,8 +12,8 @@ const DateChooserModal: React.FC<DateChooserModalProps> = ({ isOpen, onClose }) 
 
   if (!isOpen) return null;
 
-  // Custom calendar for the requested February range (1-31)
-  const daysInFeb = 31;
+  // Custom calendar for February (1-28)
+  const daysInFeb = 28;
   const startDay = 0; // Sunday for Feb 1, 2026
   const calendarDays = Array.from({ length: daysInFeb }, (_, i) => i + 1);
   const blanks = Array.from({ length: startDay }, (_, i) => i);
